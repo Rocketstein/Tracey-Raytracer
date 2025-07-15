@@ -1,0 +1,3 @@
+C:/Users/jun20/Desktop/stuff/build/CMakeFiles/raytracer.dir
+C:/Users/jun20/Desktop/stuff/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/jun20/Desktop/stuff/build/CMakeFiles/ZERO_CHECK.dir

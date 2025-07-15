@@ -1,0 +1,2213 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 2025-05-28 ?? 1:48:28.
+      
+      Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.53
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/jun20/Desktop/stuff/build/CMakeFiles/3.27.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 2025-05-28 ?? 1:48:29.
+      
+      Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.64
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/jun20/Desktop/stuff/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-9omsun"
+      binary: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-9omsun"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-9omsun'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7ea15.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-05-28 ?? 1:48:31.
+        
+        Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9omsun\\cmTC_7ea15.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7ea15.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9omsun\\Debug\\".
+          Creating directory "cmTC_7ea15.dir\\Debug\\cmTC_7ea15.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7ea15.dir\\Debug\\cmTC_7ea15.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7ea15.dir\\Debug\\cmTC_7ea15.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7ea15.dir\\Debug\\\\" /Fd"cmTC_7ea15.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ ??? ???? ?? 19.41.34120(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7ea15.dir\\Debug\\\\" /Fd"cmTC_7ea15.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9omsun\\Debug\\cmTC_7ea15.exe" /INCREMENTAL /ILK:"cmTC_7ea15.dir\\Debug\\cmTC_7ea15.ilk" /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-9omsun/Debug/cmTC_7ea15.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-9omsun/Debug/cmTC_7ea15.lib" /MACHINE:X64  /machine:x64 cmTC_7ea15.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_7ea15.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9omsun\\Debug\\cmTC_7ea15.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9omsun\\Debug\\cmTC_7ea15.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_7ea15.dir\\Debug\\cmTC_7ea15.tlog\\cmTC_7ea15.write.1u.tlog" "cmTC_7ea15.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9omsun\\Debug\\cmTC_7ea15.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_7ea15.dir\\Debug\\cmTC_7ea15.tlog\\cmTC_7ea15.write.1u.tlog" "cmTC_7ea15.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9omsun\\Debug\\cmTC_7ea15.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_7ea15.dir\\Debug\\cmTC_7ea15.tlog\\cmTC_7ea15.write.1u.tlog" "cmTC_7ea15.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_7ea15.dir\\Debug\\cmTC_7ea15.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7ea15.dir\\Debug\\cmTC_7ea15.tlog\\cmTC_7ea15.lastbuildstate".
+        Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9omsun\\cmTC_7ea15.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-frpv5d"
+      binary: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-frpv5d"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-frpv5d'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6e0e4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-05-28 ?? 1:48:33.
+        
+        Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frpv5d\\cmTC_6e0e4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6e0e4.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frpv5d\\Debug\\".
+          Creating directory "cmTC_6e0e4.dir\\Debug\\cmTC_6e0e4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6e0e4.dir\\Debug\\cmTC_6e0e4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6e0e4.dir\\Debug\\cmTC_6e0e4.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6e0e4.dir\\Debug\\\\" /Fd"cmTC_6e0e4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ ??? ???? ?? 19.41.34120(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6e0e4.dir\\Debug\\\\" /Fd"cmTC_6e0e4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frpv5d\\Debug\\cmTC_6e0e4.exe" /INCREMENTAL /ILK:"cmTC_6e0e4.dir\\Debug\\cmTC_6e0e4.ilk" /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-frpv5d/Debug/cmTC_6e0e4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-frpv5d/Debug/cmTC_6e0e4.lib" /MACHINE:X64  /machine:x64 cmTC_6e0e4.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_6e0e4.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frpv5d\\Debug\\cmTC_6e0e4.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frpv5d\\Debug\\cmTC_6e0e4.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_6e0e4.dir\\Debug\\cmTC_6e0e4.tlog\\cmTC_6e0e4.write.1u.tlog" "cmTC_6e0e4.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frpv5d\\Debug\\cmTC_6e0e4.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_6e0e4.dir\\Debug\\cmTC_6e0e4.tlog\\cmTC_6e0e4.write.1u.tlog" "cmTC_6e0e4.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frpv5d\\Debug\\cmTC_6e0e4.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_6e0e4.dir\\Debug\\cmTC_6e0e4.tlog\\cmTC_6e0e4.write.1u.tlog" "cmTC_6e0e4.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6e0e4.dir\\Debug\\cmTC_6e0e4.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6e0e4.dir\\Debug\\cmTC_6e0e4.tlog\\cmTC_6e0e4.lastbuildstate".
+        Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frpv5d\\cmTC_6e0e4.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.52
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 2025-05-28 ?? 11:22:57.
+      
+      Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:03.35
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/jun20/Desktop/stuff/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-bseacv"
+      binary: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-bseacv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-bseacv'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4e1f7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-05-28 ?? 11:23:00.
+        
+        Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bseacv\\cmTC_4e1f7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4e1f7.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bseacv\\Debug\\".
+          Creating directory "cmTC_4e1f7.dir\\Debug\\cmTC_4e1f7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4e1f7.dir\\Debug\\cmTC_4e1f7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4e1f7.dir\\Debug\\cmTC_4e1f7.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4e1f7.dir\\Debug\\\\" /Fd"cmTC_4e1f7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ ??? ???? ?? 19.41.34120(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4e1f7.dir\\Debug\\\\" /Fd"cmTC_4e1f7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bseacv\\Debug\\cmTC_4e1f7.exe" /INCREMENTAL /ILK:"cmTC_4e1f7.dir\\Debug\\cmTC_4e1f7.ilk" /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-bseacv/Debug/cmTC_4e1f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-bseacv/Debug/cmTC_4e1f7.lib" /MACHINE:X64  /machine:x64 cmTC_4e1f7.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_4e1f7.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bseacv\\Debug\\cmTC_4e1f7.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bseacv\\Debug\\cmTC_4e1f7.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_4e1f7.dir\\Debug\\cmTC_4e1f7.tlog\\cmTC_4e1f7.write.1u.tlog" "cmTC_4e1f7.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bseacv\\Debug\\cmTC_4e1f7.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_4e1f7.dir\\Debug\\cmTC_4e1f7.tlog\\cmTC_4e1f7.write.1u.tlog" "cmTC_4e1f7.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bseacv\\Debug\\cmTC_4e1f7.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_4e1f7.dir\\Debug\\cmTC_4e1f7.tlog\\cmTC_4e1f7.write.1u.tlog" "cmTC_4e1f7.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_4e1f7.dir\\Debug\\cmTC_4e1f7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4e1f7.dir\\Debug\\cmTC_4e1f7.tlog\\cmTC_4e1f7.lastbuildstate".
+        Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bseacv\\cmTC_4e1f7.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:03.67
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 2025-05-28 ?? 11:26:59.
+      
+      Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:03.49
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/jun20/Desktop/stuff/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-ffuirp"
+      binary: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-ffuirp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-ffuirp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_55250.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-05-28 ?? 11:27:03.
+        
+        Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffuirp\\cmTC_55250.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_55250.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffuirp\\Debug\\".
+          Creating directory "cmTC_55250.dir\\Debug\\cmTC_55250.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_55250.dir\\Debug\\cmTC_55250.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_55250.dir\\Debug\\cmTC_55250.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_55250.dir\\Debug\\\\" /Fd"cmTC_55250.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ ??? ???? ?? 19.41.34120(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_55250.dir\\Debug\\\\" /Fd"cmTC_55250.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffuirp\\Debug\\cmTC_55250.exe" /INCREMENTAL /ILK:"cmTC_55250.dir\\Debug\\cmTC_55250.ilk" /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-ffuirp/Debug/cmTC_55250.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-ffuirp/Debug/cmTC_55250.lib" /MACHINE:X64  /machine:x64 cmTC_55250.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_55250.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffuirp\\Debug\\cmTC_55250.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffuirp\\Debug\\cmTC_55250.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_55250.dir\\Debug\\cmTC_55250.tlog\\cmTC_55250.write.1u.tlog" "cmTC_55250.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffuirp\\Debug\\cmTC_55250.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_55250.dir\\Debug\\cmTC_55250.tlog\\cmTC_55250.write.1u.tlog" "cmTC_55250.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffuirp\\Debug\\cmTC_55250.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_55250.dir\\Debug\\cmTC_55250.tlog\\cmTC_55250.write.1u.tlog" "cmTC_55250.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_55250.dir\\Debug\\cmTC_55250.tlog\\unsuccessfulbuild".
+          Touching "cmTC_55250.dir\\Debug\\cmTC_55250.tlog\\cmTC_55250.lastbuildstate".
+        Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffuirp\\cmTC_55250.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.76
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 2025-05-30 ?? 3:09:30.
+      
+      Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.76
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/jun20/Desktop/stuff/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-ynfv5s"
+      binary: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-ynfv5s"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-ynfv5s'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7a275.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-05-30 ?? 3:09:32.
+        
+        Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ynfv5s\\cmTC_7a275.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7a275.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ynfv5s\\Debug\\".
+          Creating directory "cmTC_7a275.dir\\Debug\\cmTC_7a275.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7a275.dir\\Debug\\cmTC_7a275.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7a275.dir\\Debug\\cmTC_7a275.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7a275.dir\\Debug\\\\" /Fd"cmTC_7a275.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ ??? ???? ?? 19.41.34120(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7a275.dir\\Debug\\\\" /Fd"cmTC_7a275.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ynfv5s\\Debug\\cmTC_7a275.exe" /INCREMENTAL /ILK:"cmTC_7a275.dir\\Debug\\cmTC_7a275.ilk" /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-ynfv5s/Debug/cmTC_7a275.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-ynfv5s/Debug/cmTC_7a275.lib" /MACHINE:X64  /machine:x64 cmTC_7a275.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_7a275.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ynfv5s\\Debug\\cmTC_7a275.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ynfv5s\\Debug\\cmTC_7a275.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_7a275.dir\\Debug\\cmTC_7a275.tlog\\cmTC_7a275.write.1u.tlog" "cmTC_7a275.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ynfv5s\\Debug\\cmTC_7a275.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_7a275.dir\\Debug\\cmTC_7a275.tlog\\cmTC_7a275.write.1u.tlog" "cmTC_7a275.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ynfv5s\\Debug\\cmTC_7a275.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_7a275.dir\\Debug\\cmTC_7a275.tlog\\cmTC_7a275.write.1u.tlog" "cmTC_7a275.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_7a275.dir\\Debug\\cmTC_7a275.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7a275.dir\\Debug\\cmTC_7a275.tlog\\cmTC_7a275.lastbuildstate".
+        Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ynfv5s\\cmTC_7a275.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.17
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 2025-06-12 ?? 4:35:24.
+      
+      Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:03.04
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/jun20/Desktop/stuff/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-tkj4it"
+      binary: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-tkj4it"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-tkj4it'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c5315.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-06-12 ?? 4:35:27.
+        
+        Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tkj4it\\cmTC_c5315.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c5315.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tkj4it\\Debug\\".
+          Creating directory "cmTC_c5315.dir\\Debug\\cmTC_c5315.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c5315.dir\\Debug\\cmTC_c5315.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c5315.dir\\Debug\\cmTC_c5315.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c5315.dir\\Debug\\\\" /Fd"cmTC_c5315.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ ??? ???? ?? 19.41.34120(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c5315.dir\\Debug\\\\" /Fd"cmTC_c5315.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tkj4it\\Debug\\cmTC_c5315.exe" /INCREMENTAL /ILK:"cmTC_c5315.dir\\Debug\\cmTC_c5315.ilk" /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-tkj4it/Debug/cmTC_c5315.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-tkj4it/Debug/cmTC_c5315.lib" /MACHINE:X64  /machine:x64 cmTC_c5315.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c5315.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tkj4it\\Debug\\cmTC_c5315.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tkj4it\\Debug\\cmTC_c5315.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_c5315.dir\\Debug\\cmTC_c5315.tlog\\cmTC_c5315.write.1u.tlog" "cmTC_c5315.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tkj4it\\Debug\\cmTC_c5315.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_c5315.dir\\Debug\\cmTC_c5315.tlog\\cmTC_c5315.write.1u.tlog" "cmTC_c5315.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tkj4it\\Debug\\cmTC_c5315.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_c5315.dir\\Debug\\cmTC_c5315.tlog\\cmTC_c5315.write.1u.tlog" "cmTC_c5315.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c5315.dir\\Debug\\cmTC_c5315.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c5315.dir\\Debug\\cmTC_c5315.tlog\\cmTC_c5315.lastbuildstate".
+        Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tkj4it\\cmTC_c5315.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.14
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 2025-06-13 ?? 4:38:06.
+      
+      Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.02
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/jun20/Desktop/stuff/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-j2qxgp"
+      binary: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-j2qxgp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-j2qxgp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1f91a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-06-13 ?? 4:38:08.
+        
+        Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2qxgp\\cmTC_1f91a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1f91a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2qxgp\\Debug\\".
+          Creating directory "cmTC_1f91a.dir\\Debug\\cmTC_1f91a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1f91a.dir\\Debug\\cmTC_1f91a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1f91a.dir\\Debug\\cmTC_1f91a.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1f91a.dir\\Debug\\\\" /Fd"cmTC_1f91a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ ??? ???? ?? 19.41.34120(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1f91a.dir\\Debug\\\\" /Fd"cmTC_1f91a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2qxgp\\Debug\\cmTC_1f91a.exe" /INCREMENTAL /ILK:"cmTC_1f91a.dir\\Debug\\cmTC_1f91a.ilk" /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-j2qxgp/Debug/cmTC_1f91a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-j2qxgp/Debug/cmTC_1f91a.lib" /MACHINE:X64  /machine:x64 cmTC_1f91a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_1f91a.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2qxgp\\Debug\\cmTC_1f91a.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2qxgp\\Debug\\cmTC_1f91a.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_1f91a.dir\\Debug\\cmTC_1f91a.tlog\\cmTC_1f91a.write.1u.tlog" "cmTC_1f91a.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2qxgp\\Debug\\cmTC_1f91a.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_1f91a.dir\\Debug\\cmTC_1f91a.tlog\\cmTC_1f91a.write.1u.tlog" "cmTC_1f91a.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2qxgp\\Debug\\cmTC_1f91a.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_1f91a.dir\\Debug\\cmTC_1f91a.tlog\\cmTC_1f91a.write.1u.tlog" "cmTC_1f91a.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_1f91a.dir\\Debug\\cmTC_1f91a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1f91a.dir\\Debug\\cmTC_1f91a.tlog\\cmTC_1f91a.lastbuildstate".
+        Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j2qxgp\\cmTC_1f91a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.81
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 2025-06-14 ?? 8:38:57.
+      
+      Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.36
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/jun20/Desktop/stuff/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-tbzng7"
+      binary: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-tbzng7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-tbzng7'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dc6c8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-06-14 ?? 8:38:59.
+        
+        Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tbzng7\\cmTC_dc6c8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_dc6c8.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tbzng7\\Debug\\".
+          Creating directory "cmTC_dc6c8.dir\\Debug\\cmTC_dc6c8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_dc6c8.dir\\Debug\\cmTC_dc6c8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_dc6c8.dir\\Debug\\cmTC_dc6c8.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dc6c8.dir\\Debug\\\\" /Fd"cmTC_dc6c8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ ??? ???? ?? 19.41.34120(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dc6c8.dir\\Debug\\\\" /Fd"cmTC_dc6c8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tbzng7\\Debug\\cmTC_dc6c8.exe" /INCREMENTAL /ILK:"cmTC_dc6c8.dir\\Debug\\cmTC_dc6c8.ilk" /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-tbzng7/Debug/cmTC_dc6c8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-tbzng7/Debug/cmTC_dc6c8.lib" /MACHINE:X64  /machine:x64 cmTC_dc6c8.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_dc6c8.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tbzng7\\Debug\\cmTC_dc6c8.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tbzng7\\Debug\\cmTC_dc6c8.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_dc6c8.dir\\Debug\\cmTC_dc6c8.tlog\\cmTC_dc6c8.write.1u.tlog" "cmTC_dc6c8.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tbzng7\\Debug\\cmTC_dc6c8.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_dc6c8.dir\\Debug\\cmTC_dc6c8.tlog\\cmTC_dc6c8.write.1u.tlog" "cmTC_dc6c8.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tbzng7\\Debug\\cmTC_dc6c8.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_dc6c8.dir\\Debug\\cmTC_dc6c8.tlog\\cmTC_dc6c8.write.1u.tlog" "cmTC_dc6c8.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_dc6c8.dir\\Debug\\cmTC_dc6c8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_dc6c8.dir\\Debug\\cmTC_dc6c8.tlog\\cmTC_dc6c8.lastbuildstate".
+        Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tbzng7\\cmTC_dc6c8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.99
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 2025-06-28 ?? 7:43:05.
+      
+      Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.29
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/jun20/Desktop/stuff/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-oi6wo0"
+      binary: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-oi6wo0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-oi6wo0'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_836d8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-06-28 ?? 7:43:07.
+        
+        Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oi6wo0\\cmTC_836d8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_836d8.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oi6wo0\\Debug\\".
+          Creating directory "cmTC_836d8.dir\\Debug\\cmTC_836d8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_836d8.dir\\Debug\\cmTC_836d8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_836d8.dir\\Debug\\cmTC_836d8.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_836d8.dir\\Debug\\\\" /Fd"cmTC_836d8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ ??? ???? ?? 19.41.34120(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_836d8.dir\\Debug\\\\" /Fd"cmTC_836d8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oi6wo0\\Debug\\cmTC_836d8.exe" /INCREMENTAL /ILK:"cmTC_836d8.dir\\Debug\\cmTC_836d8.ilk" /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-oi6wo0/Debug/cmTC_836d8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-oi6wo0/Debug/cmTC_836d8.lib" /MACHINE:X64  /machine:x64 cmTC_836d8.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_836d8.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oi6wo0\\Debug\\cmTC_836d8.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oi6wo0\\Debug\\cmTC_836d8.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_836d8.dir\\Debug\\cmTC_836d8.tlog\\cmTC_836d8.write.1u.tlog" "cmTC_836d8.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oi6wo0\\Debug\\cmTC_836d8.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_836d8.dir\\Debug\\cmTC_836d8.tlog\\cmTC_836d8.write.1u.tlog" "cmTC_836d8.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oi6wo0\\Debug\\cmTC_836d8.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_836d8.dir\\Debug\\cmTC_836d8.tlog\\cmTC_836d8.write.1u.tlog" "cmTC_836d8.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_836d8.dir\\Debug\\cmTC_836d8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_836d8.dir\\Debug\\cmTC_836d8.tlog\\cmTC_836d8.lastbuildstate".
+        Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oi6wo0\\cmTC_836d8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.55
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 2025-07-04 ?? 10:06:16.
+      
+      Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.12
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/jun20/Desktop/stuff/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-gcx07n"
+      binary: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-gcx07n"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-gcx07n'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2bbc1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-07-04 ?? 10:06:19.
+        
+        Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gcx07n\\cmTC_2bbc1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2bbc1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gcx07n\\Debug\\".
+          Creating directory "cmTC_2bbc1.dir\\Debug\\cmTC_2bbc1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2bbc1.dir\\Debug\\cmTC_2bbc1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2bbc1.dir\\Debug\\cmTC_2bbc1.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2bbc1.dir\\Debug\\\\" /Fd"cmTC_2bbc1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ ??? ???? ?? 19.41.34120(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2bbc1.dir\\Debug\\\\" /Fd"cmTC_2bbc1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gcx07n\\Debug\\cmTC_2bbc1.exe" /INCREMENTAL /ILK:"cmTC_2bbc1.dir\\Debug\\cmTC_2bbc1.ilk" /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-gcx07n/Debug/cmTC_2bbc1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-gcx07n/Debug/cmTC_2bbc1.lib" /MACHINE:X64  /machine:x64 cmTC_2bbc1.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_2bbc1.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gcx07n\\Debug\\cmTC_2bbc1.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gcx07n\\Debug\\cmTC_2bbc1.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_2bbc1.dir\\Debug\\cmTC_2bbc1.tlog\\cmTC_2bbc1.write.1u.tlog" "cmTC_2bbc1.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gcx07n\\Debug\\cmTC_2bbc1.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_2bbc1.dir\\Debug\\cmTC_2bbc1.tlog\\cmTC_2bbc1.write.1u.tlog" "cmTC_2bbc1.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gcx07n\\Debug\\cmTC_2bbc1.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_2bbc1.dir\\Debug\\cmTC_2bbc1.tlog\\cmTC_2bbc1.write.1u.tlog" "cmTC_2bbc1.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2bbc1.dir\\Debug\\cmTC_2bbc1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2bbc1.dir\\Debug\\cmTC_2bbc1.tlog\\cmTC_2bbc1.lastbuildstate".
+        Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gcx07n\\cmTC_2bbc1.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.27
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 2025-07-07 ?? 7:33:57.
+      
+      Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.82
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/jun20/Desktop/stuff/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-5vnrqp"
+      binary: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-5vnrqp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-5vnrqp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_35cf5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-07-07 ?? 7:33:59.
+        
+        Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vnrqp\\cmTC_35cf5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_35cf5.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vnrqp\\Debug\\".
+          Creating directory "cmTC_35cf5.dir\\Debug\\cmTC_35cf5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_35cf5.dir\\Debug\\cmTC_35cf5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_35cf5.dir\\Debug\\cmTC_35cf5.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_35cf5.dir\\Debug\\\\" /Fd"cmTC_35cf5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ ??? ???? ?? 19.41.34120(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_35cf5.dir\\Debug\\\\" /Fd"cmTC_35cf5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vnrqp\\Debug\\cmTC_35cf5.exe" /INCREMENTAL /ILK:"cmTC_35cf5.dir\\Debug\\cmTC_35cf5.ilk" /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-5vnrqp/Debug/cmTC_35cf5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-5vnrqp/Debug/cmTC_35cf5.lib" /MACHINE:X64  /machine:x64 cmTC_35cf5.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_35cf5.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vnrqp\\Debug\\cmTC_35cf5.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vnrqp\\Debug\\cmTC_35cf5.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_35cf5.dir\\Debug\\cmTC_35cf5.tlog\\cmTC_35cf5.write.1u.tlog" "cmTC_35cf5.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vnrqp\\Debug\\cmTC_35cf5.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_35cf5.dir\\Debug\\cmTC_35cf5.tlog\\cmTC_35cf5.write.1u.tlog" "cmTC_35cf5.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vnrqp\\Debug\\cmTC_35cf5.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_35cf5.dir\\Debug\\cmTC_35cf5.tlog\\cmTC_35cf5.write.1u.tlog" "cmTC_35cf5.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_35cf5.dir\\Debug\\cmTC_35cf5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_35cf5.dir\\Debug\\cmTC_35cf5.tlog\\cmTC_35cf5.lastbuildstate".
+        Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vnrqp\\cmTC_35cf5.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.33
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 2025-07-07 ?? 11:53:54.
+      
+      Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.38
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/jun20/Desktop/stuff/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-rm2x1k"
+      binary: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-rm2x1k"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-rm2x1k'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_95c68.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-07-07 ?? 11:53:57.
+        
+        Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rm2x1k\\cmTC_95c68.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_95c68.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rm2x1k\\Debug\\".
+          Creating directory "cmTC_95c68.dir\\Debug\\cmTC_95c68.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_95c68.dir\\Debug\\cmTC_95c68.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_95c68.dir\\Debug\\cmTC_95c68.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_95c68.dir\\Debug\\\\" /Fd"cmTC_95c68.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ ??? ???? ?? 19.41.34120(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_95c68.dir\\Debug\\\\" /Fd"cmTC_95c68.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rm2x1k\\Debug\\cmTC_95c68.exe" /INCREMENTAL /ILK:"cmTC_95c68.dir\\Debug\\cmTC_95c68.ilk" /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-rm2x1k/Debug/cmTC_95c68.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-rm2x1k/Debug/cmTC_95c68.lib" /MACHINE:X64  /machine:x64 cmTC_95c68.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_95c68.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rm2x1k\\Debug\\cmTC_95c68.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rm2x1k\\Debug\\cmTC_95c68.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_95c68.dir\\Debug\\cmTC_95c68.tlog\\cmTC_95c68.write.1u.tlog" "cmTC_95c68.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rm2x1k\\Debug\\cmTC_95c68.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_95c68.dir\\Debug\\cmTC_95c68.tlog\\cmTC_95c68.write.1u.tlog" "cmTC_95c68.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rm2x1k\\Debug\\cmTC_95c68.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_95c68.dir\\Debug\\cmTC_95c68.tlog\\cmTC_95c68.write.1u.tlog" "cmTC_95c68.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_95c68.dir\\Debug\\cmTC_95c68.tlog\\unsuccessfulbuild".
+          Touching "cmTC_95c68.dir\\Debug\\cmTC_95c68.tlog\\cmTC_95c68.lastbuildstate".
+        Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rm2x1k\\cmTC_95c68.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.55
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 2025-07-09 ?? 12:03:50.
+      
+      Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.19
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/jun20/Desktop/stuff/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-sclgqm"
+      binary: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-sclgqm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-sclgqm'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_068fb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-07-09 ?? 12:03:52.
+        
+        Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sclgqm\\cmTC_068fb.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_068fb.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sclgqm\\Debug\\".
+          Creating directory "cmTC_068fb.dir\\Debug\\cmTC_068fb.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_068fb.dir\\Debug\\cmTC_068fb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_068fb.dir\\Debug\\cmTC_068fb.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_068fb.dir\\Debug\\\\" /Fd"cmTC_068fb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ ??? ???? ?? 19.41.34120(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_068fb.dir\\Debug\\\\" /Fd"cmTC_068fb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sclgqm\\Debug\\cmTC_068fb.exe" /INCREMENTAL /ILK:"cmTC_068fb.dir\\Debug\\cmTC_068fb.ilk" /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-sclgqm/Debug/cmTC_068fb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-sclgqm/Debug/cmTC_068fb.lib" /MACHINE:X64  /machine:x64 cmTC_068fb.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_068fb.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sclgqm\\Debug\\cmTC_068fb.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sclgqm\\Debug\\cmTC_068fb.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_068fb.dir\\Debug\\cmTC_068fb.tlog\\cmTC_068fb.write.1u.tlog" "cmTC_068fb.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sclgqm\\Debug\\cmTC_068fb.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_068fb.dir\\Debug\\cmTC_068fb.tlog\\cmTC_068fb.write.1u.tlog" "cmTC_068fb.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sclgqm\\Debug\\cmTC_068fb.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_068fb.dir\\Debug\\cmTC_068fb.tlog\\cmTC_068fb.write.1u.tlog" "cmTC_068fb.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_068fb.dir\\Debug\\cmTC_068fb.tlog\\unsuccessfulbuild".
+          Touching "cmTC_068fb.dir\\Debug\\cmTC_068fb.tlog\\cmTC_068fb.lastbuildstate".
+        Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sclgqm\\cmTC_068fb.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.71
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 2025-07-10 ?? 2:10:32.
+      
+      Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.95
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/jun20/Desktop/stuff/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-ife6jx"
+      binary: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-ife6jx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-ife6jx'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7465c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-07-10 ?? 2:10:34.
+        
+        Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ife6jx\\cmTC_7465c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7465c.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ife6jx\\Debug\\".
+          Creating directory "cmTC_7465c.dir\\Debug\\cmTC_7465c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7465c.dir\\Debug\\cmTC_7465c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7465c.dir\\Debug\\cmTC_7465c.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7465c.dir\\Debug\\\\" /Fd"cmTC_7465c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ ??? ???? ?? 19.41.34120(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7465c.dir\\Debug\\\\" /Fd"cmTC_7465c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ife6jx\\Debug\\cmTC_7465c.exe" /INCREMENTAL /ILK:"cmTC_7465c.dir\\Debug\\cmTC_7465c.ilk" /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-ife6jx/Debug/cmTC_7465c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-ife6jx/Debug/cmTC_7465c.lib" /MACHINE:X64  /machine:x64 cmTC_7465c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_7465c.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ife6jx\\Debug\\cmTC_7465c.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ife6jx\\Debug\\cmTC_7465c.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_7465c.dir\\Debug\\cmTC_7465c.tlog\\cmTC_7465c.write.1u.tlog" "cmTC_7465c.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ife6jx\\Debug\\cmTC_7465c.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_7465c.dir\\Debug\\cmTC_7465c.tlog\\cmTC_7465c.write.1u.tlog" "cmTC_7465c.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ife6jx\\Debug\\cmTC_7465c.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_7465c.dir\\Debug\\cmTC_7465c.tlog\\cmTC_7465c.write.1u.tlog" "cmTC_7465c.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_7465c.dir\\Debug\\cmTC_7465c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7465c.dir\\Debug\\cmTC_7465c.tlog\\cmTC_7465c.lastbuildstate".
+        Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ife6jx\\cmTC_7465c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.28
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 2025-07-14 ?? 12:49:19.
+      
+      Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.17
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/jun20/Desktop/stuff/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-43sa17"
+      binary: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-43sa17"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-43sa17'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e8a10.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-07-14 ?? 12:49:20.
+        
+        Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43sa17\\cmTC_e8a10.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e8a10.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43sa17\\Debug\\".
+          Creating directory "cmTC_e8a10.dir\\Debug\\cmTC_e8a10.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e8a10.dir\\Debug\\cmTC_e8a10.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e8a10.dir\\Debug\\cmTC_e8a10.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e8a10.dir\\Debug\\\\" /Fd"cmTC_e8a10.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ ??? ???? ?? 19.41.34120(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e8a10.dir\\Debug\\\\" /Fd"cmTC_e8a10.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43sa17\\Debug\\cmTC_e8a10.exe" /INCREMENTAL /ILK:"cmTC_e8a10.dir\\Debug\\cmTC_e8a10.ilk" /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-43sa17/Debug/cmTC_e8a10.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-43sa17/Debug/cmTC_e8a10.lib" /MACHINE:X64  /machine:x64 cmTC_e8a10.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e8a10.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43sa17\\Debug\\cmTC_e8a10.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43sa17\\Debug\\cmTC_e8a10.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_e8a10.dir\\Debug\\cmTC_e8a10.tlog\\cmTC_e8a10.write.1u.tlog" "cmTC_e8a10.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43sa17\\Debug\\cmTC_e8a10.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_e8a10.dir\\Debug\\cmTC_e8a10.tlog\\cmTC_e8a10.write.1u.tlog" "cmTC_e8a10.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43sa17\\Debug\\cmTC_e8a10.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_e8a10.dir\\Debug\\cmTC_e8a10.tlog\\cmTC_e8a10.write.1u.tlog" "cmTC_e8a10.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e8a10.dir\\Debug\\cmTC_e8a10.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e8a10.dir\\Debug\\cmTC_e8a10.tlog\\cmTC_e8a10.lastbuildstate".
+        Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-43sa17\\cmTC_e8a10.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.25
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 2025-07-15 ?? 10:59:46.
+      
+      Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.63
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/jun20/Desktop/stuff/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-h0atgu"
+      binary: "C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-h0atgu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-h0atgu'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5be94.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-07-15 ?? 10:59:48.
+        
+        Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0atgu\\cmTC_5be94.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5be94.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0atgu\\Debug\\".
+          Creating directory "cmTC_5be94.dir\\Debug\\cmTC_5be94.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5be94.dir\\Debug\\cmTC_5be94.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5be94.dir\\Debug\\cmTC_5be94.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5be94.dir\\Debug\\\\" /Fd"cmTC_5be94.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ ??? ???? ?? 19.41.34120(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5be94.dir\\Debug\\\\" /Fd"cmTC_5be94.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0atgu\\Debug\\cmTC_5be94.exe" /INCREMENTAL /ILK:"cmTC_5be94.dir\\Debug\\cmTC_5be94.ilk" /NOLOGO /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-h0atgu/Debug/cmTC_5be94.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun20/Desktop/stuff/build/CMakeFiles/CMakeScratch/TryCompile-h0atgu/Debug/cmTC_5be94.lib" /MACHINE:X64  /machine:x64 cmTC_5be94.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_5be94.vcxproj -> C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0atgu\\Debug\\cmTC_5be94.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0atgu\\Debug\\cmTC_5be94.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_5be94.dir\\Debug\\cmTC_5be94.tlog\\cmTC_5be94.write.1u.tlog" "cmTC_5be94.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0atgu\\Debug\\cmTC_5be94.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_5be94.dir\\Debug\\cmTC_5be94.tlog\\cmTC_5be94.write.1u.tlog" "cmTC_5be94.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\jun20\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0atgu\\Debug\\cmTC_5be94.exe" "C:\\Users\\jun20\\vcpkg\\installed\\x64-windows\\bin" "cmTC_5be94.dir\\Debug\\cmTC_5be94.tlog\\cmTC_5be94.write.1u.tlog" "cmTC_5be94.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_5be94.dir\\Debug\\cmTC_5be94.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5be94.dir\\Debug\\cmTC_5be94.tlog\\cmTC_5be94.lastbuildstate".
+        Done Building Project "C:\\Users\\jun20\\Desktop\\stuff\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h0atgu\\cmTC_5be94.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.18
+        
+      exitCode: 0
+...
